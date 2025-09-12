@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -56,6 +57,21 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        // Custom Portfolio Colors
+        forest: {
+          deep: "hsl(var(--forest-deep))",
+          medium: "hsl(var(--forest-medium))",
+          light: "hsl(var(--forest-light))",
+        },
+        earth: {
+          brown: "hsl(var(--earth-brown))",
+        },
+        glow: {
+          green: "hsl(var(--glow-green))",
+        },
+        amber: {
+          warm: "hsl(var(--amber-warm))",
         },
       },
       borderRadius: {
